@@ -8,7 +8,7 @@
   <br />
   <!--Done: Add JavaScript SDK here-->
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=2469375149997342"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=626032555127510&autoLogAppEvents=1" nonce="OxbYaovJ"></script>
 
   <!--TODO: Add Facebook Login button here-->
   <!--Add `data-onlogin="checkLoginState();"` to trigger the JavaScript code below after login-->
