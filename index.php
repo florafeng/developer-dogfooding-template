@@ -6,10 +6,12 @@
   <div>Hello World!</div>
   <br />
   <br />
-  <!--TODO: Add JavaScript SDK here-->
+  <!--Done: Add JavaScript SDK here-->
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=2469375149997342"></script>
 
   <!--TODO: Add Facebook Login button here-->
   <!--Add `data-onlogin="checkLoginState();"` to trigger the JavaScript code below after login-->
+  <div class="fb-login-button" data-onlogin="checkLoginState();" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
 
   <div id="status"></div>
   <br />
@@ -48,7 +50,7 @@
 
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{your-app-id}',          // TODO: replace with your App ID
+      appId      : '626032555127510',          // TODO: replace with your App ID
       cookie     : true,                     // Enable cookies to allow the server to access the session.
       xfbml      : true,                     // Parse social plugins on this webpage.
       version    : 'v5.0'
